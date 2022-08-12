@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    font-family: Sans-Serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: inherit;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-item{
+    display: inline-block;
+    padding: 20px;
+}
+main{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+div.main-container form{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.firstname-container, .lastname-container, .email-container, .body-container{
+    padding: 20px 0;
+}
+input,textarea{
+    width: 300px;
+    padding: 10px;
+    height: 40px;
+}
+.feedback-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.feedback-space{
+    margin: 20px auto;
+    width: 600px;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.content{
+    min-width: 500px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.user-info{
+    text-align: left;
+}
+.edit-delete{
+    font-size: 25px;
+    text-align: right;
+}
+.fa-solid{
+    padding: 0 5px;
+    cursor: pointer;
+}
